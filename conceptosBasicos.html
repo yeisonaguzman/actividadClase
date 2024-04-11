@@ -3,11 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Conceptos básicos</title>
+
+ 
+    <script src="/scripts/conceptosBasicos.js" defer></script>
+    <script src="/scripts/practicaConceptos.js" defer></script>
 </head>
 <body>
+
+<header>    
     <h1> Conceptos basicos
     <h2> De JavaScript
-    
-</body>
+
+    </header>
+
+<main>
+
+    <p> Implementar los conceptos de sitio web dinamicos con JavaSript:</p>
+
+<ol>
+    <li>MANEJO DEL DOM</li>
+    <li>CONDICIONALES</li>
+    <li>CICLOS</li>
+</ol>
+
+
+
+<section>
+    <h3>Ejercicio de DOM y Condicionales</h3>
+    <! que es lo que quiero hacer con este ejercicio-->
+    <p>Vamos a preguntar al usuario su edad y mostrar en la panatalla si es mayor o menor de edad</p>
+
+    <div>
+        <label>¿Cuál es tu edad?</label>
+<!-- input -> hace referencia a entrada y es algo que me suministra el usuario -->
+
+<input type="number" id="edadInput" placeholder="Ingrese aqui su edad">
+<!-- para darle funcionalidad a ese vento, se debe llamar un EVENTO Onclick -> basicamente es darle click al boton-->
+<button onclick="verificarEdad()">Verificar</button>
+
+<!--el id es un identificador unicos que nos permite llevar un elemento html a JS-->
+
+<span></span>
+
+<p id="mensaje"></p>
+
+
+
+    </div>
+</section>
+
+
+
+</main>
+<footer>
+    <p> Todos los derechos reservados por Andres Guzman
+
+    <h1> Conceptos basicos
+    <h2> De JavaScript
+   <!-- La etiqueta Script nos sirve para vincular nuestro archivo de JS en nuestro html
+    1. Inmediatamente antes del cierre de body
+    2. Utilizar el script en la etiqueta HEAD (RECOMENDABLE PONERLO EN EL HEAD)
+
+    </body>
 </html>
